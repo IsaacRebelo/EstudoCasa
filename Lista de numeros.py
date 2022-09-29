@@ -32,3 +32,4 @@ for x in range(5):
                 estrelas [x] = umnumero
                 break
     print(estrelas)
+
