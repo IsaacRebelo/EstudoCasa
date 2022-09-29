@@ -11,5 +11,6 @@ if len(frase) < 10:
 else:
     print(f'{frase}')
 
-    if len(frase) not end in:
+    if len(frase) not in 'exclamação' ,'interrogação','pontofinal':
+
         print(f'a frase tem que acabar com pontuação')
