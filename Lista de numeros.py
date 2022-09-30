@@ -16,6 +16,7 @@ if __name__ == '__main__':
     numeros = [0,0,0,0,0]
     estrelas = [0,0]
 
+
 for x in range(5):
     for x in range(len(numeros)):
         while True:
@@ -27,9 +28,16 @@ for x in range(5):
 
     for x in range(len(estrelas)):
         while True:
-            umnumero = get_random(1, 12)
-            if umnumero not in estrelas:
-                estrelas [x] = umnumero
+            onumero = get_random(1, 12)
+            if onumero not in estrelas:
+                estrelas [x] = onumero
                 break
     print(estrelas)
+
+    Troquei = True
+    while Troquei:
+        for x in range(4):
+            if numeros[x] > numeros [x+1]:
+                troquei = false
+
 
