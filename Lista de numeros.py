@@ -38,6 +38,6 @@ for x in range(5):
     while Troquei:
         for x in range(4):
             if numeros[x] > numeros [x+1]:
-                troquei = false
+
 
 

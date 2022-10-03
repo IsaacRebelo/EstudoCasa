@@ -50,16 +50,16 @@ if __name__ == '__main__':
     if totais[x] < menor:
         menor = totais [x]
 
-        ilhas_maior = []
+        maior_ilhas = []
         ilhas_menor = []
 
     for x in range(len(totais)):
         if totais[x] == maior:
-            ilhas_maior.append(ilhas[x])
+            maior_ilhas.append(ilhas[x])
         if totais[x] == menor:
             ilhas_menor.append(ilhas[x])
 
     print(totais)
-    print(f'ilhas_maior = {ilhas_maior} = {maior}')
+    print(f'ilhas_maior = {maior_ilhas} = {maior}')
     print(f'ilhas_menor = {ilhas_menor} = {menor}')
 

@@ -1,7 +1,7 @@
 
 
 def minandmax():
-    num = [1,2,3,4,5,6,7,8]
+    num = [30,21,31]
 
     min = num[0]
     for a in num:
