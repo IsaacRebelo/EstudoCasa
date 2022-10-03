@@ -1,6 +1,5 @@
+numeros = input('Insira um numero')
 
-
-string = '1234'
-
-for x in range(len(string)):
-        print(f'{string[x]}')
+for x in range(len(numeros)):
+    print(f'{numeros[x]}')
+print(''.join(numeros))
