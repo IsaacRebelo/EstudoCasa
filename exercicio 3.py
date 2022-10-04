@@ -2,7 +2,7 @@
 
 frase = input('insira a sua frase')
 exclamação = '!'
-interrogação = '?'
+interrogacao = '?'
 pontofinal = '.'
 
 if len(frase) < 10:
@@ -11,6 +11,6 @@ if len(frase) < 10:
 else:
     print(f'{frase}')
 
-    if len(frase) not in 'exclamação' ,'interrogação','pontofinal':
-
-        print(f'a frase tem que acabar com pontuação')
+final_frase = frase[len(frase) -1]
+if final_frase not in exclamação + interrogacao + pontofinal:
+    print(f'a frase tem que acabar com pontuação')
